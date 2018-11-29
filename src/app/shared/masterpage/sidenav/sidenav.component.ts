@@ -28,11 +28,6 @@ export class SidenavComponent implements OnInit {
         name: this.translate.instant('Dashboard')
       },
       {
-        icon: 'gavel',
-        link: '/producers',
-        name: this.translate.instant('Producers')
-      },
-      {
         icon: 'link',
         link: '/blocks',
         name: this.translate.instant('Blocks')
@@ -41,23 +36,6 @@ export class SidenavComponent implements OnInit {
         icon: 'list_alt',
         link: '/transactions',
         name: this.translate.instant('Transactions')
-      },
-      {
-        icon: 'settings',
-        link: '/settings',
-        name: this.translate.instant('Settings')
-      },
-      {
-        icon: 'account_balance_wallet',
-        external: true,
-        link: environment.walletUrl,
-        name: this.translate.instant('Wallet')
-      },
-      {
-        icon: 'how_to_vote',
-        external: true,
-        link: environment.votingUrl,
-        name: this.translate.instant('Voting')
       }
     ];
   }
