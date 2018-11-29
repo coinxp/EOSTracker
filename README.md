@@ -3,6 +3,13 @@
 
 EOS Tracker is a Frontend based on Angular4 that connects to [EOS Tracker API](https://github.com/EOSEssentials/EOSTracker-API).
 
+📌 Config
+------------
+* `protractor.conf.js - baseUrl`
+* `src/environments/environment.prod.ts - blockchainUrl, chainId`
+* `src/environments/environment.ts - blockchainUrl, chainId`
+
+
 📌 Getting Started
 ------------
 
